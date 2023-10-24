@@ -1,0 +1,16 @@
+# Some notes on how to access the shell
+
+# python manage.py shell
+#>>> from job_board.models import JobPosting
+#>>> JobPosting.objects.all()
+#<QuerySet []>
+#>>> JobPosting.objects.create(title="job title", description="first job", company="first",salary=750000)
+#<JobPosting: JobPosting object (1)>
+#>>> JobPosting.objects.all()
+#<QuerySet [<JobPosting: JobPosting object (1)>]>
+#>>> job = JobPosting.objects.get(id=1)
+#>>> job
+#<JobPosting: JobPosting object (1)>
+# >>> job.description="good job"
+# >>> job.save()
+# job.delete()
