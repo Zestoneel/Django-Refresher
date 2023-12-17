@@ -1,2 +1,2 @@
 # Django-Refresher
-A repository of Projects that refresh my memory of Django.
+I relearnt views, urls, templates and models to do these 3 projects.
